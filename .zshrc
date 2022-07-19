@@ -65,5 +65,3 @@ fi
 
 # Path
 PATH=$PATH:/home/josiah/Scripts
-
-# TEST
