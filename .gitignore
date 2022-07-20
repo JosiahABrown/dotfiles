@@ -1,0 +1,2 @@
+# Ignore plugged folder for Neovim plugins
+/nvim/plugged
