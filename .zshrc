@@ -56,8 +56,8 @@ source $ZSH/oh-my-zsh.sh
 # Plugins
 ZSH_TMUX_AUTOSTART=true
 
-if [ -f ~/Scripts/.aliases ]; then
-    . ~/Scripts/.aliases
+if [ -f ~/.dotfiles/.aliases ]; then
+    . ~/.dotfiles/.aliases
 fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
