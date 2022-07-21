@@ -18,6 +18,7 @@ alias hg='history | grep'
 alias weather='curl wttr.in'
 alias parrot='curl parrot.live'
 alias view='fim -a'
+alias galias='alias | grep'
 
 # Scripts
 alias tor='~/Downloads/tor-browser_en-US/Browser/start-tor-browser &'
