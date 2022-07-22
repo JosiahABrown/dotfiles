@@ -24,4 +24,4 @@ ln -s ~/.dotfile
 ## TODO list
 - Organize steps into setup.sh
 - Read [tutorials](https://dotfiles.github.io/tutorials/) on [securing dotfile](https://www.abdullah.today/encrypted-dotfiles/)
-- Convert init.vim to init.lua
+- Add sub modules to init.lua (`require('keybindings')` includes ~/.config/nvim/lua/keybindings.lua)
