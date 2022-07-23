@@ -24,4 +24,7 @@ ln -s ~/.dotfile
 ## TODO list
 - Organize steps into setup.sh
 - Read [tutorials](https://dotfiles.github.io/tutorials/) on [securing dotfile](https://www.abdullah.today/encrypted-dotfiles/)
-- Add sub modules to init.lua (`require('keybindings')` includes ~/.config/nvim/lua/keybindings.lua)
+- Add auto complete plugin to nvim
+    - Python
+	- Js 
+	- Bash
