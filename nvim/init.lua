@@ -19,6 +19,7 @@ require('plugins')
 require('cmp-config') -- Autocompletion 
 require('keybindings')
 require('lspfuzzy').setup {} -- fzf fuzzy search
+require('treesitter-config')
 
 -- Colorscheme --------------------------------------------------
 vim.cmd[[colorscheme gruvbox]]
