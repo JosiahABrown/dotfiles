@@ -5,7 +5,6 @@ require('packer').startup(function()
 
 	-- Apperance 
 	use 'gruvbox-community/gruvbox'
-	use 'vim-airline/vim-airline-themes'
 	use 'ryanoasis/vim-devicons'
 	use 'glepnir/dashboard-nvim'
 
@@ -14,7 +13,10 @@ require('packer').startup(function()
 	use 'tpope/vim-commentary' -- gc comment section
 
 	-- Extensibility
-	use 'vim-airline/vim-airline' -- status bar
+	use {
+		'nvim-lualine/lualine.nvim',
+		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+	} -- statusline
 	use 'preservim/nerdtree' -- file tree
 	use 'preservim/tagbar' -- class outline preview
 	use 'ap/vim-css-color' -- css color preview
@@ -25,7 +27,9 @@ require('packer').startup(function()
 			{'junegunn/fzf.vim'},  -- to enable preview (optional)
 		},
 	}
-    use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
+	use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
+	-- using packer.nvim
+	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
 
 	-- Auto complete
 	use 'neovim/nvim-lspconfig'

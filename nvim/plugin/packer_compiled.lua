@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/josiah/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/josiah/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -109,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/josiah/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/gruvbox-community/gruvbox"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/josiah/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   nerdtree = {
     loaded = true,
     path = "/home/josiah/.local/share/nvim/site/pack/packer/start/nerdtree",
@@ -134,6 +144,11 @@ _G.packer_plugins = {
     path = "/home/josiah/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/josiah/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/josiah/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -143,16 +158,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/josiah/.local/share/nvim/site/pack/packer/start/tagbar",
     url = "https://github.com/preservim/tagbar"
-  },
-  ["vim-airline"] = {
-    loaded = true,
-    path = "/home/josiah/.local/share/nvim/site/pack/packer/start/vim-airline",
-    url = "https://github.com/vim-airline/vim-airline"
-  },
-  ["vim-airline-themes"] = {
-    loaded = true,
-    path = "/home/josiah/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
-    url = "https://github.com/vim-airline/vim-airline-themes"
   },
   ["vim-commentary"] = {
     loaded = true,
