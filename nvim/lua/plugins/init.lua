@@ -28,7 +28,9 @@ require('packer').startup(function()
 		},
 	}
 	use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
-	-- using packer.nvim
+	use 'windwp/nvim-ts-autotag'
+	use 'p00f/nvim-ts-rainbow'
+	use 'windwp/nvim-autopairs'
 	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
 
 	-- Auto complete

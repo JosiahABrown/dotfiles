@@ -19,9 +19,11 @@ alias weather='curl wttr.in'
 alias parrot='curl parrot.live'
 alias view='fim -a'
 alias galias='alias | grep'
+alias path='echo $PATH | sed "s/:/\n&/g"'
 
 # Scripts
 alias tor='~/Downloads/tor-browser_en-US/Browser/start-tor-browser &'
-alias update='sudo updateAndReboot.sh'
+alias update='updateAndReboot.sh'
 alias qr='qrcode.sh'
 alias dirsize='dirSize.sh'
+alias internet='internet.sh'
