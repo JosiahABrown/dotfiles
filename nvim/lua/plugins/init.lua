@@ -29,6 +29,7 @@ require('packer').startup(function()
 		'nvim-telescope/telescope.nvim', tag = '0.1.0',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
+	use 'folke/which-key.nvim' -- Popup with suggested key bindings
 
 	-- Auto complete
 	use 'neovim/nvim-lspconfig'

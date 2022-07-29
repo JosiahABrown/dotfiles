@@ -16,8 +16,9 @@ end
 
 require('options') -- Basic VIM options
 require('plugins') 
-require('cmp-config') -- Autocompletion 
 require('keybindings')
+require('whichkey-config') -- Extra keybindings and info
+require('cmp-config') -- Autocompletion 
 require('treesitter-config') -- syntax highlighting
 require('lualine-config') -- Status bar
 require('bufferline-config') -- Tabs
