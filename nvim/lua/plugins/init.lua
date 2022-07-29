@@ -13,10 +13,10 @@ require('packer').startup(function()
 	use 'tpope/vim-commentary' -- gc comment section
 
 	-- Extensibility
-	use {
+	use { -- statusline
 		'nvim-lualine/lualine.nvim',
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-	} -- statusline
+	} 
 	use 'preservim/nerdtree' -- file tree
 	use 'preservim/tagbar' -- class outline preview
 	use 'ap/vim-css-color' -- css color preview
@@ -32,11 +32,14 @@ require('packer').startup(function()
 
 	-- Auto complete
 	use 'neovim/nvim-lspconfig'
+	use 'onsails/lspkind.nvim'
 	use 'hrsh7th/cmp-nvim-lsp'
 	use 'hrsh7th/cmp-buffer'
 	use 'hrsh7th/cmp-path'
 	use 'hrsh7th/cmp-cmdline'
 	use 'hrsh7th/nvim-cmp'
+	use 'hrsh7th/cmp-vsnip'
+	use 'hrsh7th/vim-vsnip'
 
 	-- Packer bootstrap
 	if packer_bootstrap then
