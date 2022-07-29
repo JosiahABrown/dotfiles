@@ -25,6 +25,10 @@ require('packer').startup(function()
 	use 'p00f/nvim-ts-rainbow' -- Different color for each closing bracket
 	use 'windwp/nvim-autopairs' -- Automatically close tags in HTML, CSS, JS, ect...
 	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'} -- Tabs manager
+	use {
+		'nvim-telescope/telescope.nvim', tag = '0.1.0',
+		requires = { {'nvim-lua/plenary.nvim'} }
+	}
 
 	-- Auto complete
 	use 'neovim/nvim-lspconfig'
