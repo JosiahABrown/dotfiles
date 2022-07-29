@@ -99,16 +99,6 @@ _G.packer_plugins = {
     path = "/home/josiah/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
     url = "https://github.com/glepnir/dashboard-nvim"
   },
-  fzf = {
-    loaded = true,
-    path = "/home/josiah/.local/share/nvim/site/pack/packer/start/fzf",
-    url = "https://github.com/junegunn/fzf"
-  },
-  ["fzf.vim"] = {
-    loaded = true,
-    path = "/home/josiah/.local/share/nvim/site/pack/packer/start/fzf.vim",
-    url = "https://github.com/junegunn/fzf.vim"
-  },
   gruvbox = {
     loaded = true,
     path = "/home/josiah/.local/share/nvim/site/pack/packer/start/gruvbox",
@@ -138,11 +128,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/josiah/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-lspfuzzy"] = {
-    loaded = true,
-    path = "/home/josiah/.local/share/nvim/site/pack/packer/start/nvim-lspfuzzy",
-    url = "https://github.com/ojroques/nvim-lspfuzzy"
   },
   ["nvim-treesitter"] = {
     loaded = true,

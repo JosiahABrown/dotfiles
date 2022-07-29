@@ -20,18 +20,11 @@ require('packer').startup(function()
 	use 'preservim/nerdtree' -- file tree
 	use 'preservim/tagbar' -- class outline preview
 	use 'ap/vim-css-color' -- css color preview
-	use {
-		'ojroques/nvim-lspfuzzy',
-		requires = {
-			{'junegunn/fzf'},
-			{'junegunn/fzf.vim'},  -- to enable preview (optional)
-		},
-	}
-	use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
-	use 'windwp/nvim-ts-autotag'
-	use 'p00f/nvim-ts-rainbow'
-	use 'windwp/nvim-autopairs'
-	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+	use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"} -- Treesitter highlighting
+	use 'windwp/nvim-ts-autotag' -- Close tags in TS
+	use 'p00f/nvim-ts-rainbow' -- Different color for each closing bracket
+	use 'windwp/nvim-autopairs' -- Automatically close tags in HTML, CSS, JS, ect...
+	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'} -- Tabs manager
 
 	-- Auto complete
 	use 'neovim/nvim-lspconfig'
