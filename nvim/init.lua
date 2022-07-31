@@ -1,4 +1,5 @@
 ----------------------------------------------------
+--
 -- Packer options
 -- https://github.com/wbthomason/packer.nvim
 --	:PackerSync
@@ -18,7 +19,7 @@ require('options') -- Basic VIM options
 require('plugins') 
 require('keybindings')
 require('whichkey-config') -- Extra keybindings and info
-require('cmp-config') -- Autocompletion 
+require('lsp') -- Autocompletion 
 require('treesitter-config') -- syntax highlighting
 require('lualine-config') -- Status bar
 require('bufferline-config') -- Tabs
