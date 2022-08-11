@@ -1,10 +1,15 @@
 # Aliases
 # ls aliases
-alias ls='ls --color=auto'
-alias ll='ls -l'
-alias la='ls -A'
-alias lag='ls -A | grep'
-alias l='ls -CF'
+# alias ls='ls --color=auto'
+alias ls='colorls'
+# alias ll='ls -l'
+alias ll='colorls -l'
+# alias la='ls -A'
+alias la='colorls -A'
+# alias lag='ls -A | grep'
+alias lag='colorls -A | grep'
+# alias l='ls -CF'
+alias l='colorls -C'
 
 # Custom aliases
 alias python='python3'
