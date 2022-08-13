@@ -25,6 +25,7 @@ require('lualine-config') -- Status bar
 require('bufferline-config') -- Tabs
 require('autopairs-config') -- Automatically close characters
 require('telescope-config') -- Fuzzy finder
+require('colorizer-config') -- hex colors
 
 -- Colorscheme --------------------------------------------------
 vim.cmd[[colorscheme gruvbox]]

@@ -30,6 +30,7 @@ require('packer').startup(function()
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 	use 'folke/which-key.nvim' -- Popup with suggested key bindings
+	use 'norcalli/nvim-colorizer.lua' -- css colors
 
 	-- Auto complete
 	use 'neovim/nvim-lspconfig'
