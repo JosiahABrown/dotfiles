@@ -1,4 +1,14 @@
 local wk = require("which-key")
+local Terminal = require('toggleterm.terminal').Terminal
+
+local toggle_float = function()
+	local float = Terminal:new({ direction = "float" })
+	return float:toggle()
+end
+local toggle_lazygit = function()
+	local lazygit = Terminal:new({ cmd = 'lazygit', direction = "float" })
+	return lazygit:toggle()
+end
 
 local mappings = {
   q = { ":q<cr>", "Quit" },
@@ -38,6 +48,11 @@ local mappings = {
     s = { ":PackerSync<cr>", "Sync Plugins" },
     S = { ":PackerStatus<cr>", "Packer Status" },
     u = { ":PackerUpdate<cr>", "Update Plugins" }
+  },
+  t = {
+	  t = { ":ToggleTerm<cr>", "Split Below" },
+	  f = { toggle_float, "Floating Terminal" },
+	  l = { toggle_lazygit, "LazyGit" }
   }
 }
 

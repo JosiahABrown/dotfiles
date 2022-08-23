@@ -31,6 +31,9 @@ require('packer').startup(function()
 	}
 	use 'folke/which-key.nvim' -- Popup with suggested key bindings
 	use 'norcalli/nvim-colorizer.lua' -- css colors
+	use {"akinsho/toggleterm.nvim", tag = 'v2.*', config = function()
+		require("toggleterm").setup()
+	end}
 
 	-- Auto complete
 	use 'neovim/nvim-lspconfig'

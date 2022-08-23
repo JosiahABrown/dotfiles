@@ -26,6 +26,7 @@ require('bufferline-config') -- Tabs
 require('autopairs-config') -- Automatically close characters
 require('telescope-config') -- Fuzzy finder
 require('colorizer-config') -- hex colors
+require('toggleterm-config') -- toggle terminal 
 
 -- Colorscheme --------------------------------------------------
 vim.cmd[[colorscheme gruvbox]]
