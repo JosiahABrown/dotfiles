@@ -25,6 +25,7 @@ alias parrot='curl parrot.live'
 alias view='fim -a'
 alias galias='alias | grep'
 alias path='echo $PATH | sed "s/:/\n&/g"'
+alias cat='batcat'
 
 # Scripts
 alias tor='~/Downloads/tor-browser_en-US/Browser/start-tor-browser &'
