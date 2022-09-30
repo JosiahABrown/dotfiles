@@ -1,6 +1,7 @@
 # .dotfiles
 It is what it is. 
 
+![[Screenshot_20220930_111755.png]]
 ## Installation 
 1. Install `git`
 2. Clone repo into a new directory 
