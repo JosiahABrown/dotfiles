@@ -67,6 +67,7 @@ fi
 PATH=$PATH:$HOME/Scripts
 PATH=$PATH:$HOME
 PATH=$PATH:$HOME/.local/bin
+PATH=$PATH:/usr/local/go/bin
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
